@@ -1,6 +1,145 @@
 body{
+
     background-image: url(../img/bgImg.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-}
+    header {
+        background-color: rgba(61,61,61,.80);
+        text-align: center;
+        padding: 25px 0px;
+        img{
+            display: inline-block;
+        }
+        h1 {
+            display: inline-block;
+            margin-left: 30px;
+            vertical-align: bottom;
+            color: #008000;
+        }
+        }
+    }
+    #mainContent {
+        height: 400px;
+        margin-top: 25px;
+         div {
+                background-color: white;
+                border-radius: 5px;
+            }
+        #slider {
+            height:275px;
+            width: 250px;
+            background: none;
+            button {
+                display: inline-block;
+            }
+            #sliderImg{
+                display: inline-block;
+                //height: 175px;
+                width: 325px;
+                img{
+                    max-width: 100%;
+                }
+            }
+        }
+        #rsTop {
+            text-align: left;
+            background-color: rgba(0,0,0,0);
+            border: none;
+            margin-bottom: 25px;
+            color: black;
+            .title {
+                padding-left: 5px;
+                height: 25px;
+                width: 100px;
+                border-radius: 5px;  
+                margin-bottom: 15px;
+            }
+            .description {
+                padding: 10px;
+                height: 275px;
+                width: 500px;
+                margin-bottom: 15px;
+            } div {
+                background-color: rgba(61,61,61,.8);
+            }
+            button {
+                background-color: none;
+                border: none;
+            }
+            .bd-example {
+                width: 0;
+            }
+            .round {
+                height: 25px;
+                width: 25px;
+                border-radius: 50px;
+                .fa-facebook-square{
+                    color: #4f2f97;
+                }
+                .fa-pinterest-square {
+                    color: #bd081c;
+                }
+                .fa-google-plus-square {
+                    color: #DC4A38;
+                }
+                .fa-twitter-square {
+                    color: #1da1f2;
+                }
+            }
+            .normal {
+                border-radius: 5px;
+            }
+        }
+    }
+    .testimonials {
+        color: black;
+        height: 275px;
+        background-color: rgba(61,61,61,.78);
+        div {
+            display: inline-block;
+            height: 275px;
+            //width: 200px;
+            text-align: center;
+            .image {
+                margin-top: 25px;
+                width:100px;
+                height: 100px;
+                border-radius: 50%;
+                img {
+                    border-radius: 50%;
+                    max-width: 100%;
+                }
+            }
+            .info{
+                height:200px;
+                width:100px;
+                border: 2px solid black;
+                background-color: rgba(61,61,61,.85);
+            }
+        }
+    }
+    .companies {
+        text-align: center;
+        height: 350px;
+        h2 {
+            margin-top: 25px;
+        }
+        .compImg {
+            height: 200px;
+            width: 300px;
+            display: inline-block;
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+    #map {
+        height: 300px;
+    }
+    footer {
+        height: 45px;
+        background-color: rgba(61,61,61,.78);
+        text-align: right;
+        font-size: 1em;
+    }

@@ -16,7 +16,7 @@ body {
       color: #008000; }
 
 #mainContent {
-  height: 400px;
+  height: 375px;
   margin-top: 25px; }
   #mainContent div {
     background-color: white;
@@ -55,7 +55,8 @@ body {
       background-color: none;
       border: none; }
     #mainContent #rsTop .bd-example {
-      width: 0; }
+      width: 0px;
+      margin: 0 !important; }
     #mainContent #rsTop .round {
       height: 25px;
       width: 25px;

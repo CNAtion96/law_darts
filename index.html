@@ -5,13 +5,112 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <link href="css/main.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">        <link href="css/main.css" rel="stylesheet">
     </head>
-    <body>
-    
+    <body class="container-fluid row">
+        <!--Logo/Company Name-->
+        <header class="col-md-12">
+            <img src="img/Site_Logo.svg">
+            <h1 class="cName">Dart Vader Inc</h1>
+            <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse bg-faded">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="img/Site_Logo.svg"</a>
+                <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us<a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--Basic Info/Slider-->
+        <div class="col-md-12 row" id="mainContent">
+            <!--slider-->
+            <div class="col-md-4 offset-md-1" id="slider">
+                <button id="previous"><</button>
+                <div id="sliderImg">
+                    <img src="img/jarts.jpg">
+                </div>
+                <button id="next">></button>
+            </div>
+            <!--tite & description-->
+            <div class="col-md-7" id="rsTop">
+                <!--title-->
+                <div class="title">
+                
+                </div>
+                <!--description-->
+                <div class="description">
+                
+                </div>
+                <div id="exampleModalLive" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLiveLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLiveLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Product Added Successfully!</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="bd-example">
+                <button type="button" class="normal btn btn-primary" data-toggle="modal" data-target="#exampleModalLive">
+                    Add to Cart
+                </button>
+                </div>
+                <button class="round first" type=""><i class="fa fa-facebook-square" aria-hidden="true"></i></button>
+                <button class="round" type=""><i class="fa fa-twitter-square" aria-hidden="true"></i></button>
+                <button class="round" type=""><i class="fa fa-pinterest-square" aria-hidden="true"></i></button>
+                <button class="round" type=""><i class="fa fa-google-plus-square" aria-hidden="true"></i></button>
+            </div>
+        </div>
+        <!--testimonials-->
+        <div class="col-md-12 testimonials row">
+            <div class="col-md-4  containTest0">
+
+
+            </div>
+            <div class="col-md-4 containTest1">
+
+            </div>
+            <div class="col-md-4 containTest2">
+
+            </div>
+        </div>
+        <!--Companies-->
+        <div class="col-md-12 companies">
+            <h2>Companies Who Trust Us<h2>
+        </div>
+        <!--map-->
+        <div class="col-md-12" id="map">
+            
+        </div>
+        <!--copyright-->
+        <footer class="col-md-12">
+            <p>©2013-2017 Dart Vader</p>
+        </footer>
     
         <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSJiJcSBaypnj6in6pPf8rG8uaXQsogmE&callback=initMap"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>

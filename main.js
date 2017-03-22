@@ -1,1 +1,0 @@
-var seven = 7;
