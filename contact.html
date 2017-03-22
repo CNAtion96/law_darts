@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">        <link href="css/main.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/contact.css">
     </head>
     <body>
      <header class="col-md-12">
@@ -33,5 +35,21 @@
                 </ul>
             </nav>
         </header>
+        <div class="col-md-8 offset-md-2 content">
+				<div class="container-fluid">
+					<h2 class="col-md-12">Contact Us</h2>
+					<h3 class="col-md-12">Call Us: (304)410-2849</h3>
+					<h3 class="col-md-12" id="emailHead">Email Us:</h3>
+					<form method="post" action="form_to_email.php" method="get" accept-charset="utf-8">
+						<h5 class="col-md-12">Name:</h5>
+						<input class="col-md-2" type="text" name="name" id="name" value="" placeholder="John Doe">
+						<h5 class="col-md-12">Email:</h5>
+						<input class="col-md-3" type="text" name="email" id="email" value="" placeholder="youremail@email.com">
+						<h5 class="col-md-12">Message:</h5>
+						<textarea class="col-md-12" name="message" id="emailContent" placeholder="Type your message here."></textarea>
+						<input id="submit" class="col-md-1" type="submit" value="Send">
+					</form>
+				</div>
+			</div>	
     </body>
 </html>
